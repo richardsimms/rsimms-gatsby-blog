@@ -10,7 +10,7 @@ published: true
 
 When we’re looking at a backlog of potential features or a flood of new ideas to prioritise. We know every stakeholder, executive and member of the team will have a different opinion or preference. How do you choose what to do next?
 
-> _When you know your why… it's easier to say no to good ideas. If an [idea doesn't contribute to your objectives](https://rsimms.com/horses-for-courses) it won't bring you the value to meet your vision._
+> When you know your why… it's easier to say no to good ideas. If an [idea doesn't contribute to your objectives](https://rsimms.com/horses-for-courses) it won't bring you the value to meet your vision.
 
 ### (Value / effort) x confidence = priority 
 This formula is by [Bruce McCarthy](https://www.productculture.org/about), priorities ideas based the value you expect it would contribute to your objectives, over the effort that would be required and multiplied by the confidence in both Value and Effort.

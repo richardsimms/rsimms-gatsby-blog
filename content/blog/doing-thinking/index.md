@@ -12,11 +12,11 @@ The more I work with product teams, the more I fall in love with the continuous 
 
 It’s more valuable to be wildly unsuccessful but learn several key things from that experience, than to be successful and not know why. Reward teams for their learning are whether they succeeded or not because they can now make decisions based on evidence, not opinions. 
 
-> _Whoever fails the most wins. - Seth Godin_
+> Whoever fails the most wins. - _Seth Godin_
 
 If you fail too big you don’t get to learn any more, so it’s important to [fail on a small scale]() and often. Prototypes are a space where you can test out ideas for a while, long enough to get good at it by failing and not annoy your audience. 
 
-> _Doing is the best kind of thinking. - Tom Chi_
+> Doing is the best kind of thinking. - _Tom Chi_
 
 To learn if something will be successful I encourage you to think about how you can use prototyping in more places. A prototype helps to visualise an idea and to answers of desirability, feasibility, viability or usability. The power of prototyping is immense; from improving your thinking to communicating your ideas and to help make better decisions. 
 

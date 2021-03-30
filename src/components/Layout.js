@@ -94,6 +94,18 @@ const getGlobalStyles = theme => {
         font-family: ${fonts.semiboldItalic};
       }
     }
+
+    q {
+      quotes: "“" "”" "‘" "’";
+      font-family: ${fonts.regularItalic};
+      color: ${theme.colors.em};
+    }
+    q::before {
+        content: open-quote;
+    }
+    q::after {
+        content: close-quote;
+    }
     input {
       border-radius: 4px;
       border: 1px solid ${theme.colors.gray};

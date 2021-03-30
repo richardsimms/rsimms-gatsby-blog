@@ -20,7 +20,7 @@ After the prioritisation, it’s time to combine solutions with the How Might We
 
 The formate of an actionable-hypothesis follows these four steps:
 
-> _We believe that doing, building, or creating this for these people will result in this outcome and we will know we’re right when we see this metric_
+> We believe that doing, building, or creating this for these people will result in this outcome and we will know we’re right when we see this metric
 
 Next up is developing an experiment so you can test your hypothesis. Our test will follow the scientific methods, so it’s subject to collecting empirical and measurable evidence to obtain new knowledge. In other words, it’s crucial to have a measurable outcome for the hypothesis so we can determine whether it has succeeded or failed.
 
