@@ -47,7 +47,8 @@ const Header = ({ siteTitle }) => {
               }
               .active {
                 text-decoration: underline;
-                
+                color: ${theme.colors.pink};
+
               }
             `}
           >
