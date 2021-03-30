@@ -1,0 +1,16 @@
+{
+  "env": {
+    "GOOGLE_ANALYTICS": "UA-56512737-4",
+    "NODE_ENV": "production"
+  },
+  "alias": "rsimms.com",
+  "scale": {
+    "sfo1": {
+      "min": 1,
+      "max": "auto"
+    }
+  },
+  "static": {
+    "trailingSlash": false
+  }
+}
