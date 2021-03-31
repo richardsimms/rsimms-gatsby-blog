@@ -119,8 +119,7 @@ const ResetStyles = () => {
     margin-bottom: 0.5rem;
   }
   button:focus {
-    outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color;
+    outline: none;
   }
   input,
   button,

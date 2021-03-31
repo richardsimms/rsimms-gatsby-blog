@@ -44,10 +44,14 @@ const Header = ({ siteTitle }) => {
                 color: ${theme.colors.white};
                 margin-left: 16px;
                 margin-right: 16px;
+                border-bottom-width: 3px;
               }
               .active {
-                text-decoration: underline;
+                text-decoration: none;
                 color: ${theme.colors.pink};
+                border-bottom-style: solid;
+                border-bottom-width: 3px;
+                width: fit-content;
 
               }
             `}

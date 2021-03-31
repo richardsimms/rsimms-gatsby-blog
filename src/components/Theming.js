@@ -26,7 +26,7 @@ const themes = {
       em: colors.lightGreen,
       sectionBg: colors.red,
       bodyBg: colors.black,
-      headerBg: darken(0.05, colors.blue),
+      headerBg: darken(0.1, colors.blue),
       link: colors.pink,
       ...colors,
     },

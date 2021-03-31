@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { useTheme } from '../Theming'
 import ThemeToggler from './ThemeToggler'
 
+
 export default () => {
   const theme = useTheme()
   return (
@@ -18,7 +19,6 @@ export default () => {
       </Link>
 
       <ThemeToggler
-        css={{}}
         toggleTheme={theme.toggleTheme}
         themeName={theme.themeName}
       />

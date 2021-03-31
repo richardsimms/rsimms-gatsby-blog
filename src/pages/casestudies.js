@@ -15,7 +15,7 @@ const Hero = () => {
       css={css`
         color: ${theme.colors.white};
         width: 100%;
-        background: ${theme.colors.blue};
+        background: ${theme.colors.headerBg};
         padding: 20px 0 30px 0;
         display: flex;
       `}
@@ -61,12 +61,12 @@ export default function Index({ data: { site } }) {
         <p> Through design rigger, I increase confidence in assumptions to create better experiences people are willing to change their behaviour for. I’ve had the pleasure to work with globally respected brands. Optimising their products and defining experience strategy to create innovative products from concept to market that deliver business growth.</p>
       <br />
       <h3>Open Universities Australia</h3>
-      <span>March 2019 – Present</span>
+      <em>March 2019 – Present</em>
       <p>Supporting five product teams to deliver quant and qual research, wireflows, and concepts. As the lead UX designer at Open Universities Australia, I often wear many hats but my focus is always to ensure that the product teams are creating value for the customer.</p>
       <p>The outcome that I'm most proud to have achieved is that of conducting continuous customer research and achieving an average of talking to customers every 4 days for over a year. Gathering early input and validation from customers to save time and increase confidence. This empathy also radically improved the perception of how easy it is to work with Open Universities Australia.</p>
 
       <h3>Rona Scrubs Ltd</h3>
-      <span>March 2020 – August 2020</span>
+      <em>March 2020 – August 2020</em>
       <p>A not-for-profit charitable organisation, creating scrubs (uniforms) for healthcare heroes in response to COVID-19.
         <br />
       <Link
@@ -77,7 +77,7 @@ export default function Index({ data: { site } }) {
       </Link>
       </p>
       <h3>Outware Mobile</h3>
-      <span>2017 – 2019</span>
+      <em>2017 – 2019</em>
       <p>Leading the strategic and experience of products from conception to market. Ensuring the vision translated through design craft creates value for the business and is the right fit for the customer needs for <strong>Safe Food Queensland</strong>, <strong>Suncorp App</strong> and <strong>Bunnings</strong>.
       <br />
       <Link
@@ -88,7 +88,7 @@ export default function Index({ data: { site } }) {
       </Link>
       </p>
       <h3>SapientRazorfish</h3>
-      <span>2015 – 2017</span>
+      <em>2015 – 2017</em>
       <p>As lead designer within a leading London creative agency, I was responsible for overseeing the experience design websites, mobile apps, and product concepts for <strong>Mastercard</strong>, <strong>HSBC</strong>, <strong>PGA</strong>, <strong>Diageo</strong> and <strong>HCA</strong>.
       <br />
       <Link
@@ -100,7 +100,7 @@ export default function Index({ data: { site } }) {
       
       <br />
       <Link
-              to="/et"
+              to="/european-tour"
               aria-label={`view PGA Europen Tour case study`}
             >
               Read PGA Europen Tour case study →
