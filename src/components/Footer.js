@@ -2,6 +2,7 @@ import React from 'react'
 import { css } from '@emotion/core'
 import { bpMaxSM } from '../lib/breakpoints'
 //import SubscribeForm from './Forms/Subscribe'
+import Form from 'components/form'
 import { LinkedIn, GitHub } from './Social'
 import Container from './Container'
 import Link from 'components/Link'
@@ -18,6 +19,10 @@ const Footer = ({ author, noSubscribeForm }) => (
     >
       {!noSubscribeForm && (
         <div>
+            <h4>
+            Want to stay up-to-date on value-based design?
+          </h4>
+          <Form></Form>
       {/*     <SubscribeForm /> */}
           <br />
           <p>If you’re looking for a designer to help define your customers experience to deliver business growth—<Link to="/contact">let’s chat</Link>.</p>
