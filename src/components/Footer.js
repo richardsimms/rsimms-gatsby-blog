@@ -19,9 +19,13 @@ const Footer = ({ author, noSubscribeForm }) => (
     >
       {!noSubscribeForm && (
         <div>
-            <h4>
+            <h3
+              css={css`
+              font-size: 1rem;
+            `}
+            >
             Want to stay up-to-date on value-based design?
-          </h4>
+          </h3>
           <Form></Form>
       {/*     <SubscribeForm /> */}
           <br />

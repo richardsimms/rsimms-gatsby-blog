@@ -21,6 +21,18 @@ const Blog = ({
   return (
     <Layout site={site}>
       <SEO />
+      <h1
+        css={css` 
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        `}
+      
+      >The writing of Richard Simms</h1>
       <Container noVerticalPadding>
         {posts.map(({ node: post }) => (
           <div

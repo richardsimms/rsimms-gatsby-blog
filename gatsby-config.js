@@ -60,6 +60,7 @@ module.exports = {
     'gatsby-plugin-mdx-embed',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

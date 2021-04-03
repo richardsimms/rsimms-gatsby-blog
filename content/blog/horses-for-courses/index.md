@@ -1,7 +1,7 @@
 ---
 slug: horses-for-courses
 date: 2019-11-04
-title: 'Horses for courses'
+title: 'Horses for courses – choosing the right bets to play and gaining better odds'
 description: 'Designing for outcomes and our bets are about proving the economic ramifications of any design decision.'
 categories: ['article']
 published: true

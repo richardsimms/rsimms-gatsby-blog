@@ -1,7 +1,7 @@
 ---
 slug: saying-no
 date: 2020-01-01
-title: 'Saying no to good ideas'
+title: 'Saying no to good ideas, is easy when you know your why'
 description: '(Value / effort) x confidence = priority'
 categories: ['article']
 published: true
