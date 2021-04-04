@@ -59,8 +59,7 @@ module.exports = {
     'gatsby-plugin-emotion',
     'gatsby-plugin-mdx-embed',
     'gatsby-plugin-catch-links',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sitemap',
+    'gatsby-plugin-react-helmet', 
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

@@ -105,6 +105,7 @@ export default function Index({ data: { site, allMdx } }) {
       <Container
         css={css`
         z-index: 1;
+        max-height: 680px;
       `}
       >
        <img src={require('../images/watering.webp')} alt="Helping grow a plant by watering" />
