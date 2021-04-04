@@ -54,6 +54,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-advanced-sitemap',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-emotion',
@@ -151,7 +152,6 @@ module.exports = {
         pathToConfigModule: `src/lib/typography`,
       },
     },
-    'gatsby-plugin-offline',
-
+    'gatsby-plugin-offline',   
   ],
 }
