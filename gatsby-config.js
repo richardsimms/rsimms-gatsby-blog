@@ -55,6 +55,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-advanced-sitemap',
+    'gatsby-plugin-webpack-bundle-analyser-v2',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-emotion',

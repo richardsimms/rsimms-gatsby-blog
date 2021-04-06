@@ -57,7 +57,13 @@ export default function Index({ data: { site } }) {
     <Layout site={site}>
       <Hero />
       <Container>
-        <h4>I’m obsessed about crafting amazing digital products.</h4>
+        <h2
+          css={css`
+          font-size: 1.25rem;
+          
+        `}
+        
+        >I’m obsessed about crafting amazing digital products.</h2>
         <p> Through design rigger, I increase confidence in assumptions to create better experiences people are willing to change their behaviour for. I’ve had the pleasure to work with globally respected brands. Optimising their products and defining experience strategy to create innovative products from concept to market that deliver business growth.</p>
       <br />
       <h3>Open Universities Australia</h3>
