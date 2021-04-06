@@ -160,11 +160,5 @@ module.exports = {
         sv: 6
       },
     },
-    {
-      resolve: `gatsby-plugin-canonical-urls`,
-      options: {
-        siteUrl: `https://www.rsimms.com`,
-      },
-    },
   ],
 }
