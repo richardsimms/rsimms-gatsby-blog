@@ -1,13 +1,14 @@
-import React from 'react'
+import React, {lazy} from 'react'
 import { graphql } from 'gatsby'
-import { css } from '@emotion/core'
-import styled from '@emotion/styled'
-import Layout from 'components/Layout'
-//import Link from 'components/Link'
-import { Link } from 'gatsby'
-import { useTheme } from 'components/Theming'
-import Container from 'components/Container'
-import { rhythm } from '../lib/typography'
+
+const css = lazy(() => import('@emotion/core'));
+const styled = lazy(() => import('@emotion/styled'));
+const Link = lazy(() => import('gatsby'));
+const useTheme = lazy(() => import('components/Theming'));
+const Layout = lazy(() => import('components/Layout'));
+const Container = lazy(() => import('components/Container'));
+const rhythm = lazy(() => import('../lib/typography'));
+
 
 const Hero = () => {
   const theme = useTheme()
