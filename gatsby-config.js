@@ -55,7 +55,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-advanced-sitemap',
-    'gatsby-plugin-webpack-bundle-analyser-v2',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-emotion',
@@ -154,5 +153,18 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',   
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 295758,
+        sv: 6
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.rsimms.com`,
+      },
+    },
   ],
 }
