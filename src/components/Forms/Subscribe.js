@@ -79,7 +79,7 @@ class SignUp extends React.Component {
               margin-top: 0;
             `}
           >
-            Want to stay up-to-date on value-based design?
+            Grow your value-based design practice in just 5 mins a week
           </h4>
         )}
 

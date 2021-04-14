@@ -24,8 +24,10 @@ const Footer = ({ author, noSubscribeForm }) => (
               font-size: 1rem;
             `}
             >
-            Want to stay up-to-date on value-based design?
+            Grow your value-based design practice in just 5 mins a week
           </h3>
+          <p>Join other designers who get a <b>free weekly email with inspiration</b> to grow as a design who creates value. View previous <a href="https://vbd.substack.com">newsletters</a> to see what's comming.</p>
+
           <Form></Form>
       {/*     <SubscribeForm /> */}
           <br />

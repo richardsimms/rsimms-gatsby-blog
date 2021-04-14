@@ -50,12 +50,12 @@ export default function App() {
         css={css`
         padding-right: 1rem;
         `}
-        ><label>Your Name: <input type="text" name="name" placeholder="Your name" /></label></p>
+        ><label>First name: <input type="text" name="name" placeholder="Name (optional)" /></label></p>
         <p
         css={css`
         padding-right: 1rem;
         `}
-        ><label>What’s your best email address? <input type="email" name="email" placeholder="Your email" required /></label></p>
+        ><label>Your best email address? <input type="email" name="email" placeholder="Your email" required /></label></p>
         <p><button 
         css={css`
         border-radius: 4px;
@@ -69,7 +69,7 @@ export default function App() {
 
         `}
         
-        type="submit">Sign up!</button></p>
+        type="submit">Start growing!</button></p>
       </form>
   );
 }
