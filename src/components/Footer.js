@@ -8,7 +8,7 @@ import Container from './Container'
 import Link from 'components/Link'
 
 const Footer = ({ author, noSubscribeForm }) => (
-  <footer>
+  <footer id="subscribe">
     <Container
       css={css`
         padding-top: 0;
@@ -19,7 +19,7 @@ const Footer = ({ author, noSubscribeForm }) => (
     >
       {!noSubscribeForm && (
         <div>
-            <h3
+            <h3 
               css={css`
               font-size: 1rem;
             `}
