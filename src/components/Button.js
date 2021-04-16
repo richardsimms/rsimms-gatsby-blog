@@ -37,7 +37,7 @@ const Button = ({ to, }) => {
     padding: '12px 42px',
     borderRadius: '12px',
     fontSize: '1.25rem',
-    background: 'hsl(345deg 100% 47%)',
+    background: 'hsl(345deg 100% 44%)',
     color: 'white',
     willChange: 'transform',
     transform: 'translateY(-6px)' ,
