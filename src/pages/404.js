@@ -1,28 +1,19 @@
 import React from 'react'
-import Layout from '../components/Layout'
-import Container from '../components/Container'
-import { css } from '@emotion/core'
-import { useTheme } from 'components/Theming'
 import { graphql } from 'gatsby'
+import Layout from '../components/Layout'
+import Message from '../components/ConfirmMessage/Message'
 
-
-export default ({ data: { site } }) => {
-  const theme = useTheme()
+export default ({ data: { site, allMdx, latestArticle } }) => {
   return (
-    <Layout site={site} >
-        <Container
-          css={css`
-          text-align: center;
-        `}
-        >        
-           <h1
-            css={css`
-            color: ${theme.colors.text};
-            `}
-           >NOT FOUND</h1>          
-          <p>Nothing found on that URL.</p>
-        </Container>
-          <hr />
+    <Layout site={site} noSubscribeForm>
+      <div>
+        <Message
+          fullscreen
+          title={`Nothing found`}
+          body={`Sorry, there is nothing at this URL.`}
+          note={`[Go back home](/)`}
+        />
+      </div>
     </Layout>
   )
 }
