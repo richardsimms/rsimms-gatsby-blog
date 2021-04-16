@@ -1,7 +1,7 @@
 import React from "react";
 import { css } from '@emotion/core'
 import { bpMaxSM } from '../lib/breakpoints'
-
+import Button from 'components/Button'
 
 export default function App() {
 
@@ -56,8 +56,8 @@ export default function App() {
         padding-right: 1rem;
         `}
         ><label>Your best email address? <input type="email" name="email" placeholder="Your email" required /></label></p>
-        <p><button 
-        css={css`
+        <p><Button 
+        /* css={css`
         border-radius: 4px;
         background-color: rgb(31, 71, 83);
         color: rgb(255, 255, 255);
@@ -67,9 +67,9 @@ export default function App() {
         transition: all 150ms ease 0s;
         width:200px;
 
-        `}
+        `} */
         
-        type="submit">Start growing!</button></p>
+        type="submit">Start growing!</Button></p>
       </form>
   );
 }

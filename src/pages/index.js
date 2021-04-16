@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import { css } from '@emotion/core'
 import styled from '@emotion/styled'
 import Layout from 'components/Layout'
+
 //import Link from 'components/Link'
 
 import { Link } from 'gatsby'
@@ -43,6 +44,7 @@ const Hero = () => {
         >
           Designing for clarity when everything is uncertain
         </h1>
+        
       </Container>
       <div
         css={css`
@@ -96,6 +98,7 @@ export default function Index({ data: { site, allMdx } }) {
       grid-column: 2;
     `}
     >
+      
       <h2><a href="https://www.open.edu.au/">Work with me at Open University Australia</a></h2>
       <ul>
         <li>Open Universities Australia is a nonprofit marketplace for higher education across Australia that I lead the usability experience.</li>

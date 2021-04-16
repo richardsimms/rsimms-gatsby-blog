@@ -118,8 +118,11 @@ const ResetStyles = () => {
     display: inline-block;
     margin-bottom: 0.5rem;
   }
-  button:focus {
+  button {
     outline: none;
+  }
+  button:focus-visible {
+    outline: revert;
   }
   input,
   button,
