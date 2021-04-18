@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const Button = ({ to, }) => {
   //const theme = useTheme()
- 
+  
   const shadow = css({
     position: 'absolute',
     top: '0',
@@ -42,17 +42,22 @@ const Button = ({ to, }) => {
     willChange: 'transform',
     transform: 'translateY(-6px)' ,
     transition: 'transform 600ms cubic-bezier(.3, .7, .4, 1)',
-        '&:hover': {
+        '&:hover,&:focus': {
             transform: 'translateY(-8px)',   
             transition: 'transform 625ms cubic-bezier(.3, .7, .4, 1.5) filter 250ms',
             filter: 'brightness(110%)',
 
-  
+            '& $shadow': {
+              transform: 'translateY(10px)',
+            },
         },
         '&:active': {
             transform: 'translateY(-2px)',   
             transition: 'transform 34ms',
-
+            
+            '& $shadow': {
+              transform: 'translateY(0px)',
+            },
         },
       
   })
@@ -62,21 +67,18 @@ const Button = ({ to, }) => {
   ) : (
     <button css={css`
     position: relative;
-    background: transparent;
-    border-radius: 12px;
     border: none;
+    background: transparent;
     padding: 0;
     cursor: pointer;
     outline-offset: 4px;
-    outline: 10px;
+    border-radius: 12px;
     transition: filter 250ms;
     -webkit-tap-highlight-color: transparent;
     user-select: none;
       &:hover {
-          background: hsl(340deg 100% 32%);
           border: none;
-          transition: filter 250ms;
-          filter: brightness(110%);
+         
         },
   `}
     >

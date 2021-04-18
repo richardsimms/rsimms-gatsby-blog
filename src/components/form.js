@@ -37,7 +37,7 @@ export default function App() {
       }
     }
           `}
-    name="Newsletter" method="POST" netlify="true" action="/messages">
+    name="Newsletter" method="POST" netlify="true" action="/confirm">
         <input 
           css={css`
           display: flex;

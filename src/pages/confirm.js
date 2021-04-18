@@ -17,6 +17,7 @@ export default ({ data: { site, allMdx, latestArticle } }) => {
           body={`We just sent you an email with the confirmation link. 
           **Please check your inbox!**`}
         />
+        
       </div>
     </Layout>
   )
