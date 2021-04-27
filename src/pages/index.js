@@ -92,19 +92,14 @@ export default function Index({ data: { site, allMdx } }) {
     <Layout site={site}>
       <Hero />
       <div ></div>
-      
+    
       <Container
       css={css`
       grid-column: 2;
     `}
-    >
-      
-      <h2><a href="https://www.open.edu.au/">Work with me at Open University Australia</a></h2>
-      <ul>
-        <li>Open Universities Australia is a nonprofit marketplace for higher education across Australia that I lead the usability experience.</li>
-        <li>As the lead UX designer at Open Universities Australia, I often wear many hats but my focus is always to ensure that the product teams are creating value for the customer.</li>
-        <li>Gathering early input and validation from customers to save time and increase confidence. With a cadence of talking to custmers every four days, created empathy and radically improved the perception of how easy it is to work with Open Universities Australia.</li>
-      </ul>
+      >
+        <h2><Link to="/oua" activeClassName="active" aria-label="view Open Universities Australia case study">Continuous customer research practice</Link></h2>
+        <p>Achieving an average of talking to customers every five days for over a year. Gathering early input and validation from customers to save time and increase confidence. This empathy approach also radically improved the perception of how easy it is to work with Open Universities Australia.</p>
       </Container>
       <Container
         css={css`
@@ -135,6 +130,7 @@ export default function Index({ data: { site, allMdx } }) {
       <h2>Designed a single destination and the place to get your home, car, money and life sorted.</h2>
      <p>I lead and facilitated the <Link to="/suncorp">strategic experience design</Link> of the Suncorp <a href="https://itunes.apple.com/au/app/suncorp-app/id1383025759?mt=8">iOS</a> / <a href="https://play.google.com/store/apps/details?id=au.com.suncorp.marketplace">Android</a> native banking and insurance marketplace. I advocated a user-centered approach in design perspective and practice across the product and stakeholders. Throughout discovery, we continually gathered feedback from customers. We tested everything from the value proposition, the navigation concepts to the desirability of individual features.</p>
       </Container> */}
+      
       <Container
         css={css`
           padding-bottom: 0;

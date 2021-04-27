@@ -1,6 +1,6 @@
 ---
 slug: continuous-discovery
-date: 2021-04-09
+date: 2019-08-09
 title: 'Continuous discovery & Opportunity solution tree'
 description: 'Continuous discovery is about driving better decisions and confidence to the product process.'
 categories: ['article']

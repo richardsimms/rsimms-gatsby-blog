@@ -43,10 +43,7 @@ const ResetStyles = () => {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  a {
-    transition: 100ms;
-    text-decoration: none;
-  }
+  
 
   a:not([href]):not([tabindex]) {
     color: inherit;

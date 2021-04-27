@@ -69,8 +69,15 @@ export default function Index({ data: { site } }) {
       <h3>Open Universities Australia</h3>
       <em>March 2019 – Present</em>
       <p>Supporting five product teams to deliver quant and qual research, wireflows, and concepts. As the lead UX designer at Open Universities Australia, I often wear many hats but my focus is always to ensure that the product teams are creating value for the customer.</p>
-      <p>The outcome that I'm most proud to have achieved is that of conducting continuous customer research and achieving an average of talking to customers every 4 days for over a year. Gathering early input and validation from customers to save time and increase confidence. This empathy also radically improved the perception of how easy it is to work with Open Universities Australia.</p>
-
+      <p>The outcome that I'm most proud to have achieved is that of conducting continuous customer research and achieving an average of talking to customers every five days for over a year. Gathering early input and validation from customers to save time and increase confidence. This empathy approach also radically improved the perception of how easy it is to work with Open Universities Australia.
+        <br />
+      <Link
+              to="/oua"
+              aria-label={`view Open Universities Australia case study`}
+            >
+              Read case study →
+      </Link>
+      </p>
       <h3>Rona Scrubs Ltd</h3>
       <em>March 2020 – August 2020</em>
       <p>A not-for-profit charitable organisation, creating scrubs (uniforms) for healthcare heroes in response to COVID-19.
