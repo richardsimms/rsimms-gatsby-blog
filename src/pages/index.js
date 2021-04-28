@@ -99,7 +99,15 @@ export default function Index({ data: { site, allMdx } }) {
     `}
       >
         <h2><Link to="/oua" activeClassName="active" aria-label="view Open Universities Australia case study">Continuous customer research practice</Link></h2>
-        <p>Achieving an average of talking to customers every five days for over a year. Gathering early input and validation from customers to save time and increase confidence. This empathy approach also radically improved the perception of how easy it is to work with Open Universities Australia.</p>
+        <p>Achieving an average of talking to customers every five days for over a year. Gathering early input and validation from customers to save time and increase confidence. This empathy approach also radically improved the perception of how easy it is to work with Open Universities Australia.
+          <br />
+          <Link
+              to="/oua"
+              aria-label={`view Open Universities Australia case study`}
+            >
+              Read case study →
+      </Link>
+        </p>
       </Container>
       <Container
         css={css`
@@ -118,6 +126,12 @@ export default function Index({ data: { site, allMdx } }) {
             <li>I helped a not for profit charity provide scrubs (uniforms) for healthcare heroes in response to COVID-19. By creating a website that matched local volunteers with healthcare workers who needed scrubs.</li>
             <li>We finished up making over 6,500 free scrubs for healthcare workers across Australia with the help of over 3,000 volunteers and generous donors.</li>
           </ul>
+          <Link
+              to="/ronascrubs"
+              aria-label={`view Rona scrubs case study`}
+            >
+              Read case study →
+          </Link>
         </Container>
       </section>
       <Container>
@@ -162,12 +176,17 @@ export default function Index({ data: { site, allMdx } }) {
             <Description>
               {post.excerpt}{' '}
               </Description>
-          
+              <Link
+              to={`/${post.fields.slug}`}
+              aria-label={`view "${post.frontmatter.title}" article`}
+            >
+              Read Article →
+            </Link>
           </div>
         ))}
-       {/*  <Link to="/blog" aria-label="Visit blog page">
+       <Link to="/blog" aria-label="Visit blog page">
           View all articles
-        </Link> */}
+        </Link> 
         <hr />
       </Container>
     </Layout>

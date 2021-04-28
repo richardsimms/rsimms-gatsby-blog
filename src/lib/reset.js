@@ -43,11 +43,10 @@ const ResetStyles = () => {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
 
   a:not([href]):not([tabindex]) {
     color: inherit;
-    text-decoration: none;
+    text-decoration: underline;
     &:hover,
     &:focus {
       color: inherit;

@@ -100,12 +100,14 @@ const Blog = ({
             >
               {post.excerpt}
             </p>{' '}
+            <div>
             <Link
               to={`/${post.fields.slug}`}
               aria-label={`view "${post.frontmatter.title}" article`}
             >
               Read Article →
             </Link>
+            </div>
           </div>
         ))}
         <div css={css({ marginTop: '30px' })}>

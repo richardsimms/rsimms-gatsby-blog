@@ -32,8 +32,9 @@ const getGlobalStyles = theme => {
         color: ${theme.colors.link};
       }
       &:hover {
-        text-decoration: underline;
         
+        color: ${lighten(0.15, theme.colors.link)};
+        box-shadow: 0px 2px 0px;
       }
     }
     h1,
