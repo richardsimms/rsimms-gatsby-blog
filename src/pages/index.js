@@ -110,14 +110,15 @@ export default function Index({  data: { site, allMdx } }) {
         <PopupButton
             css={css`
             z-index: 1;
-            background: transparent;
+            background: hsl(345deg 100% 44%);
             width: 100%;
             padding: 12px 42px;
-            borderRadius: 12px;
+            border-radius: 12px;
             border: none;
+            color: white;
             &:hover {
               border: none;
-              background: transparent;
+              background: hsl(345deg 100% 44%);
             },
           `}
               text="Let's chat"
