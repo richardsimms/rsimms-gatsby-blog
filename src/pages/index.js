@@ -106,14 +106,7 @@ export default function Index({  data: { site, allMdx } }) {
           <li>How do I bring my vision to reality?</li>
         </ul>
         <p>Wouldn’t it be great if you could get your idea out of your head and into a prototype to share with engineers, partners, investors, etc…<br/>I’ll help you validate your idea with your customers and understand their motivations. I have a track record of connecting the dots between business design and customers experience to deliver business growth. Curious to see if we’d be a good fit to work together.</p>
-        <CTA type="submit"
-                css={css`
-                  
-                  
-                  
-                  
-                    `}
-        >
+        <CTA type="submit">
         <PopupButton
             css={css`
             z-index: 1;
@@ -152,7 +145,7 @@ export default function Index({  data: { site, allMdx } }) {
 
               className="PopupButton-callout"
               pageSettings={{
-                backgroundColor: 'ffffff',
+                backgroundColor: '7a7573',
                 hideEventTypeDetails: false,
                 hideLandingPageDetails: false,
                 primaryColor: '00a2ff',
