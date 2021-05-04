@@ -1,14 +1,15 @@
 import React from 'react'
 import { css } from '@emotion/core'
 import { bpMaxSM } from '../lib/breakpoints'
-//import SubscribeForm from './Forms/Subscribe'
 import Form from 'components/form'
 import { LinkedIn, GitHub } from './Social'
 import Container from './Container'
-import Link from 'components/Link'
+import { PopupButton } from "react-calendly";
 
-const Footer = ({ author, noSubscribeForm }) => (
-  <footer id="subscribe">
+
+const Footer = ({ author, noSubscribeForm }) => {
+  return (
+<footer id="subscribe">
     <Container
       css={css`
         padding-top: 0;
@@ -26,14 +27,27 @@ const Footer = ({ author, noSubscribeForm }) => (
             >
             Grow your value-based design practice in just 5 mins a week
           </h3>
-          <p>Join other designers who get a <b>free weekly email with inspiration</b> to grow as a design who creates value. View previous <a href="https://vbd.substack.com">newsletters</a> to see what's comming.</p>
+          <p>Join designers who get a <b>free weekly email with inspiration</b> to grow as a design who creates value. View previous <a href="https://vbd.substack.com">newsletters</a> to see what's coming.</p>
 
           <Form></Form>
       {/*     <SubscribeForm /> */}
           <br />
-          <p>If you’re looking for a designer to help define your customers experience to deliver business growth—<Link to="/contact">let’s chat</Link>.</p>
-          
-          
+          <p>If you’re looking for a designer to help define your customers experience to deliver business growth—<PopupButton
+            
+
+              className="PopupButton"
+              pageSettings={{
+                backgroundColor: 'ffffff',
+                hideEventTypeDetails: false,
+                hideLandingPageDetails: false,
+                primaryColor: '00a2ff',
+                textColor: '4d5055'
+              }}
+              
+              styles={{}}
+              text="let's chat!"
+              url="https://calendly.com/richard-simms/30min?"
+            />.</p>
         </div>
       )}
       <div
@@ -59,5 +73,8 @@ const Footer = ({ author, noSubscribeForm }) => (
     </Container>
   </footer>
 )
+}
+   
+  
 
 export default Footer

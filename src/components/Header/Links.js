@@ -9,13 +9,13 @@ export default () => {
   return (
     <React.Fragment>
       <Link to="/casestudies" activeClassName="active" aria-label="View my work">
-        Work
+      Case studies
       </Link>
       <Link to="/blog" activeClassName="active" aria-label="View latestes articles">
-        Blog
+        Articles
       </Link>
-      <Link to="/contact" activeClassName="active" aria-label="View bio page">
-        Contact
+      <Link to="/about" activeClassName="active" aria-label="View bio page">
+        About
       </Link>
 
       <ThemeToggler

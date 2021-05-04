@@ -54,7 +54,7 @@ const Hero = () => {
 export default function Index({ data: { site } }) {
   
   return (
-    <Layout site={site}>
+    <Layout site={site} noSubscribeForm>
       <Hero />
       <Container>
         <h2

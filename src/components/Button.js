@@ -1,9 +1,8 @@
 import { React } from 'react'
 import { css } from '@emotion/core'
-import { Link } from 'gatsby'
 //import { useTheme } from '../Theming'
 
-const Button = ({ to, }) => {
+const Button = props => {
   //const theme = useTheme()
   
   const shadow = css({
@@ -34,7 +33,7 @@ const Button = ({ to, }) => {
   const front = css({
     display: 'block',
     position: 'reletive',
-    padding: '12px 42px',
+    
     borderRadius: '12px',
     fontSize: '1.25rem',
     background: 'hsl(345deg 100% 44%)',
@@ -61,10 +60,7 @@ const Button = ({ to, }) => {
         },
       
   })
-  return to ? (
-    <Link to={to}>
-    </Link>
-  ) : (
+  return (
     <button css={css`
     position: relative;
     border: none;
@@ -85,7 +81,7 @@ const Button = ({ to, }) => {
         <span css={shadow}></span>
         <span css={edge}></span>
         <span css={front}>
-        Start growing!
+        {props.children}
         </span>
     </button>
   )

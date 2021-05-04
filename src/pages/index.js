@@ -3,13 +3,14 @@ import { graphql } from 'gatsby'
 import { css } from '@emotion/core'
 import styled from '@emotion/styled'
 import Layout from 'components/Layout'
-
-//import Link from 'components/Link'
-
+import { useTheme } from '../components/Theming'
+import { PopupButton } from "react-calendly";
 import { Link } from 'gatsby'
-import { useTheme } from 'components/Theming'
-import Container from 'components/Container'
+import Container from '../components/Container'
 import { rhythm } from '../lib/typography'
+import Sidenote from '../components/Sidenote-callout'
+import CTA from '../components/Button'
+
 
 const Hero = () => {
   const theme = useTheme()
@@ -23,13 +24,11 @@ const Hero = () => {
         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
-        
       `}
     >
       <Container
         css={css`
           display: flex;
-        
         `}
       >
         <h1
@@ -86,14 +85,107 @@ const Description = styled.p`
   display: inline-block;
 `
 
-export default function Index({ data: { site, allMdx } }) {
+export default function Index({  data: { site, allMdx } }) {
   const theme = useTheme()
+   
   return (
     <Layout site={site}>
       <Hero />
       <div ></div>
     
+      <Container 
+      css={css`
+      grid-column: 2;
+    `}
+      >
+        <h2>Do you have a great idea for a product?</h2>
+        <h3>You’re probably wondering:</h3>
+        <ul>
+          <li>Will anyone buy it if I build it?</li>
+          <li>Where should I start?</li>
+          <li>How do I bring my vision to reality?</li>
+        </ul>
+        <p>Wouldn’t it be great if you could get your idea out of your head and into a prototype to share with engineers, partners, investors, etc…<br/>I’ll help you validate your idea with your customers and understand their motivations. I have a track record of connecting the dots between business design and customers experience to deliver business growth. Curious to see if we’d be a good fit to work together.</p>
+        <CTA type="submit"
+                css={css`
+                  
+                  
+                  
+                  
+                    `}
+        >
+        <PopupButton
+            css={css`
+            z-index: 1;
+            background: transparent;
+            width: 100%;
+            padding: 12px 42px;
+            borderRadius: 12px;
+            border: none;
+            &:hover {
+              border: none;
+              background: transparent;
+            },
+          `}
+              text="Let's chat"
+              url="https://calendly.com/richard-simms/30min?"
+            />
+      </CTA>
+      </Container>
       <Container
+        css={css`
+        z-index: 1;
+        max-height: 680px;
+      `}
+      >
+       <img src={require('../images/watering.webp')} alt="Helping grow a plant by watering" />
+      </Container>
+ 
+      <section className="callout">
+        <Container>
+        <Sidenote>
+          <p>Richard helped guide the process of discovery, design and experimentation. Throughout, Richard is always a staunch advocate for the customer. I find Richard to be a great help in making sense of where our priorities should be, and how we can achieve our business goals while never (well, mostly never) compromising our principles. Developing new concepts and thinking big with Richard is unfailingly an inspiring and invigorating activity.</p>
+          <em>— Asha Ioculari, Product manager at Open Universities Australia</em>
+        </Sidenote> 
+       
+        <p>If you’re looking for a designer to help define your customers experience to deliver business growth—<PopupButton
+
+              className="PopupButton-callout"
+              pageSettings={{
+                backgroundColor: 'ffffff',
+                hideEventTypeDetails: false,
+                hideLandingPageDetails: false,
+                primaryColor: '00a2ff',
+                textColor: '4d5055'
+              }}
+              
+              styles={{}}
+              text="let's chat!"
+              url="https://calendly.com/richard-simms/30min?"
+            /></p>
+        </Container>
+        
+      </section>
+      <Container>
+      <div className="ImageBlock">
+      <img className="Image" src={require('../images/img-square.webp')} alt="Voluntee cutting fabric from a pattern" />
+      <img className="Image" src={require('../images/img-nurse.webp')} alt="Halthcare workers wearing scrubs" />
+    </div>
+    </Container>  
+    <Container>
+          <h2><Link to="/ronascrubs" activeClassName="active" aria-label="View Rona Scrubs">Supporting our healthcare heroes</Link></h2>
+          <ul>
+            <li>I helped a not for profit charity provide scrubs (uniforms) for healthcare heroes in response to COVID-19. By creating a website that matched local volunteers with healthcare workers who needed scrubs.</li>
+            <li>We finished up making over 6,500 free scrubs for healthcare workers across Australia with the help of over 3,000 volunteers and generous donors.</li>
+          </ul>
+          <Link
+              to="/ronascrubs"
+              aria-label={`view Rona scrubs case study`}
+            >
+              Read case study →
+          </Link>
+        </Container> 
+    <Container 
       css={css`
       grid-column: 2;
     `}
@@ -109,37 +201,6 @@ export default function Index({ data: { site, allMdx } }) {
       </Link>
         </p>
       </Container>
-      <Container
-        css={css`
-        z-index: 1;
-        max-height: 680px;
-      `}
-      >
-       <img src={require('../images/watering.webp')} alt="Helping grow a plant by watering" />
-      </Container>
- 
-      <section className="callout">
-     
-        <Container>
-          <h2><Link to="/ronascrubs" activeClassName="active" aria-label="View Rona Scrubs">Supporting our healthcare heroes</Link></h2>
-          <ul>
-            <li>I helped a not for profit charity provide scrubs (uniforms) for healthcare heroes in response to COVID-19. By creating a website that matched local volunteers with healthcare workers who needed scrubs.</li>
-            <li>We finished up making over 6,500 free scrubs for healthcare workers across Australia with the help of over 3,000 volunteers and generous donors.</li>
-          </ul>
-          <Link
-              to="/ronascrubs"
-              aria-label={`view Rona scrubs case study`}
-            >
-              Read case study →
-          </Link>
-        </Container>
-      </section>
-      <Container>
-      <div className="ImageBlock">
-      <img className="Image" src={require('../images/img-square.webp')} alt="Voluntee cutting fabric from a pattern" />
-      <img className="Image" src={require('../images/img-nurse.webp')} alt="Halthcare workers wearing scrubs" />
-    </div>
-    </Container>   
 {/*     <Container>
       <h2>Designed a single destination and the place to get your home, car, money and life sorted.</h2>
      <p>I lead and facilitated the <Link to="/suncorp">strategic experience design</Link> of the Suncorp <a href="https://itunes.apple.com/au/app/suncorp-app/id1383025759?mt=8">iOS</a> / <a href="https://play.google.com/store/apps/details?id=au.com.suncorp.marketplace">Android</a> native banking and insurance marketplace. I advocated a user-centered approach in design perspective and practice across the product and stakeholders. Throughout discovery, we continually gathered feedback from customers. We tested everything from the value proposition, the navigation concepts to the desirability of individual features.</p>

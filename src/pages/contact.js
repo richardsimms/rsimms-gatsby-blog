@@ -2,31 +2,22 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
-import { css } from '@emotion/core'
-import { useTheme } from 'components/Theming'
 
 
-export default ({ data: { site } }) => {
-  const theme = useTheme()
+
+export default ({ data: { site, } }) => {
   return (
-    <Layout site={site} >
-        <Container
-          css={css`
-          text-align: center;
-        `}
-        >
-           <img className="Image" src={require('../images/richard.webp')} alt="Richard Simms" />
-        
-           <h1
-            css={css`
-            color: ${theme.colors.text};
-            `}
-           >Richard Simms</h1>
+    <Layout site={site} noSubscribeForm >
+        <Container>        
+           <h1>Contact</h1>
             <p><a href="mailto:richard@rsimms.com">richard@rsimms.com</a></p>
            <p><a href="https://www.linkedin.com/in/richardsimms">LinkedIn profile</a></p>
+         
+  
         </Container>
           <hr />
     </Layout>
+    
   )
 }
 

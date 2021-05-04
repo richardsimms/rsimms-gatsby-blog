@@ -13,7 +13,11 @@ import { fonts } from '../lib/typography'
 import config from '../../config/website'
 import Footer from '../components/Footer'
 
+
 const getGlobalStyles = theme => {
+  const noHorizontalPadding = false
+  const noVerticalPadding = false
+  
   return css`
     body {
       background: ${theme.colors.bodyBg};
@@ -54,6 +58,99 @@ const getGlobalStyles = theme => {
         }
       }
     }
+    .PopupButton {
+      color: ${theme.colors.link};
+      font-weight: bold;
+      background: ${theme.colors.bodyBg};
+      border: none;
+      padding: 0;
+      border-radius:0;
+      
+      &:hover {
+        border: none;
+        padding: 0;
+        background: ${theme.colors.bodyBg};
+        color: ${lighten(0.15, theme.colors.link)};
+        box-shadow: 0px 2px 0px;
+      }
+    }
+    .PopupButton-callout {
+      color: ${theme.colors.link};
+      font-weight: bold;
+      background: ${darken(0.05, theme.colors.sectionBg)};
+      border: none;
+      padding: 0;
+      border-radius:0;
+
+      &:hover {
+        border: none;
+        padding: 0;
+        background: ${darken(0.05, theme.colors.sectionBg)};
+        color: ${lighten(0.15, theme.colors.link)};
+        box-shadow: 0px 2px 0px;
+      }
+    }
+    .sideNote {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      background: ${theme.colors.sidenoteBg};
+      border-color: ${theme.colors.primary};
+      padding: 24px 32px;
+      font-size: 17px;
+      margin-top: 48px;
+      margin-bottom: 64px;
+      border-left: 3px solid;
+      border-radius: 3px 6px 6px 3px;
+      transition: background 350ms ease 0s;
+      max-width: 780px;
+      padding: 40px
+        ${noHorizontalPadding ? 0 : '40'}px;
+      ${bpMaxSM} {
+        padding: ${noVerticalPadding ? 0 : '20'}px
+          ${noHorizontalPadding ? 0 : '20'}px;
+      }
+    }
+    .sideNote-icon {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      transform: translate(-50%, -50%);
+      padding: 2px;
+      border-radius: 50%;
+      background: ${theme.colors.bodyBg};
+    }
+    .sideNote-icon-callout {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      transform: translate(-50%, -50%);
+      padding: 2px;
+      border-radius: 50%;
+      background: ${darken(0.05, theme.colors.sectionBg)};
+    }
+    .sideNote-callout {
+      background: ${lighten(0.02, theme.colors.sectionBg)};
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      border-color: ${theme.colors.primary};
+      padding: 24px 32px;
+      font-size: 17px;
+      margin-top: 48px;
+      margin-bottom: 64px;
+      border-left: 3px solid;
+      border-radius: 3px 6px 6px 3px;
+      transition: background 350ms ease 0s;
+      max-width: 780px;
+      padding: 40px
+        ${noHorizontalPadding ? 0 : '40'}px;
+      ${bpMaxSM} {
+        padding: ${noVerticalPadding ? 0 : '20'}px
+          ${noHorizontalPadding ? 0 : '20'}px;
+      }
+    }
+    
     .curve {
       fill: ${theme.colors.bodyBg};
     }
@@ -200,6 +297,8 @@ export default ({
 
   const keywords = (frontmatterKeywords || siteKeywords).join(', ')
   const description = frontmatterDescription || siteDescription
+     
+
 
   return (
     <ThemeProvider theme={theme}>

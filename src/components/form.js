@@ -40,9 +40,10 @@ export default function App() {
     name="Newsletter" method="POST" netlify="true" action="/confirm">
         <input 
           css={css`
-          display: flex;
-          justify-content: space-between;
-          align-items: flex-end;
+          flex-wrap: nowrap;
+          flex-direction: row;
+          align-content: space-around;
+          justify-content: space-evenly;
           `}
 
         type="hidden" name="form-name" value="Newsletter" />
@@ -56,20 +57,13 @@ export default function App() {
         padding-right: 1rem;
         `}
         ><label>Your best email address? <input type="email" name="email" placeholder="Your email" required /></label></p>
-        <p><Button 
-        /* css={css`
-        border-radius: 4px;
-        background-color: rgb(31, 71, 83);
-        color: rgb(255, 255, 255);
-        padding: 5px 10px;
-        cursor: pointer;
-        border: 1px solid rgb(31, 71, 83);
-        transition: all 150ms ease 0s;
-        width:200px;
+        <p><Button type="submit">
+          <p
+            css={css`
+            padding: 12px 42px;
 
-        `} */
-        
-        type="submit">Start growing!</Button></p>
+            `}>Start growing!</p>
+            </Button></p>
       </form>
   );
 }
