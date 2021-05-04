@@ -11,7 +11,7 @@ export default ({ data: { site } }) => {
         <Container>   
             <img className="Image" src={require('../images/richard.webp')} alt="Richard Simms" />
             <h1>About Richard</h1>
-           <p>Hi! I’m Richard Simms and customer experience designer, consultant for the better part of fifteen years. I’m obsessed about crafting amazing digital products. Through design rigger, I increase confidence in assumptions to create better experiences people are willing to change their behaviour for. I’ve had the pleasure to work with Diageo, Sky Sports, Coutts bank, Suncorp, MasterCard, and many more household name brands.</p>
+           <p>Hi! I’m Richard Simms a user experience designer, I've consultant for the better part of fifteen years. I’m obsessed about crafting amazing digital products. Through design rigger, I increase confidence in assumptions to create better experiences people are willing to change their behaviour for. I’ve had the pleasure to work with Diageo, Sky Sports, Coutts bank, Suncorp, MasterCard, and many more household name brands.</p>
 
             <p>If you have additional questions, you can <a href="mailto:richard@rsimms.com">email me</a> directly.</p>
             <p>When I’m not in front of a screen, you can find me on a bike, riding through the Australian bush or at least finding my Zen on Beach Road, Melbourne, AU.</p>

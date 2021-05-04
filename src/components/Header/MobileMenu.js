@@ -104,7 +104,7 @@ const Toggle = ({ children }) => {
                 font-size: 22px;
                 margin: 10px 0;
                 padding: 10px;
-                border-radius: 5px;
+                border-radius: 0;
                 :hover {
                   background: rgba(0, 0, 0, 0.2);
                 }
