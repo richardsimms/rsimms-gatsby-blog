@@ -14,18 +14,20 @@ export default ({ data: { site } }) => {
            <p>Hi! I’m Richard Simms a user experience designer, I've consultant for the better part of fifteen years. I’m obsessed about crafting amazing digital products. Through design rigger, I increase confidence in assumptions to create better experiences people are willing to change their behaviour for. I’ve had the pleasure to work with Diageo, Sky Sports, Coutts bank, Suncorp, MasterCard, and many more household name brands.</p>
 
             <p>If you have additional questions, you can <a href="mailto:richard@rsimms.com">email me</a> directly.</p>
-            <p>When I’m not in front of a screen, you can find me on a bike, riding through the Australian bush or at least finding my Zen on Beach Road, Melbourne, AU.</p>
+            <p>When I’m not in front of a screen, you can find <a aria-label="View my strava bio" href="https://www.strava.com/athletes/12283677">me on a bike</a>, riding through the Australian bush or at least finding my Zen on Beach Road, Melbourne, AU.</p>
             <hr />
             <h2>Happening now</h2>
             <p>As of May 2021:</p>
             <ul>
-              <li>Researching my first book!</li>
-              <li>Writing about <a href="https://vbd.substack.com/">value-based design</a> practice </li>
+              <li>Writing about <a aria-label="View article on value-based design" href="https://vbd.substack.com/">value-based design</a> practice. Connecting the dots between customer value and business outcomes.</li>
+              <li>Creating a self-service product for Open Universities Australia partners to manage their students.</li>
+              <li>Bringing Open Universities Australia trusted advisors to the website.</li>
             </ul>
             <hr />
             <h3>Social media</h3>
            <p><a href="https://www.linkedin.com/in/richardsimms">LinkedIn profile</a></p>
            <p><a href="https://www.instagram.com/richardsimms">Instagram</a></p>
+           <p><a href="https://github.com/richardsimms/">Github</a></p>
         </Container>
           <hr />
     </Layout>

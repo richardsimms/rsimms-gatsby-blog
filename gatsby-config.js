@@ -74,7 +74,15 @@ module.exports = {
     'gatsby-plugin-emotion',
     'gatsby-plugin-mdx-embed',
     'gatsby-plugin-catch-links',
-    'gatsby-plugin-react-helmet', 
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.rsimms.com',
+        sitemap: 'https://www.rsimms.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }, 
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
