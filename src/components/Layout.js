@@ -107,7 +107,7 @@ const getGlobalStyles = theme => {
       padding: 40px
         ${noHorizontalPadding ? 0 : '40'}px;
       ${bpMaxSM} {
-        padding: ${noVerticalPadding ? 0 : '20'}px
+        padding: ${noVerticalPadding ? 0 : '40'}px
           ${noHorizontalPadding ? 0 : '20'}px;
       }
     }
