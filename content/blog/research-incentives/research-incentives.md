@@ -8,9 +8,6 @@ published: true
 
 ---
 
-
-# How to choose the right customer research incentives
-
 ## What are appropriate incentives
 It’s normal to pay participants when they help with research, and people should be compensated for their time. However, in some types of research and for some people, paying incentives isn’t appropriate. In this case, allowing participants to donate to charities. So, the incentives need to be appropriate to the participant’s background and personal circumstances. 
 
@@ -29,9 +26,6 @@ Some segments can be hard to find or more niche. I once interviewed Healthcare c
 It’s worth tailoring the rates that are offered based on the organisation type and size. I currently work for a [Not-For profit,][8] which allows for a slight deduction in the rates. 
 
 All of this context for incentives are incredibly important to help determine the amount for each incentive. Luckily Ethnio has a very useful [calculator][9] that recommends a starting point based on the activity, audience, organisation, brand, and timeline. However, you should totally test and adjust to your target participants. 
-
-Thanks for reading
-Richard
 
 [1]:	https://www.paypal.com
 [2]:	https://venmo.com "Venmo - Share Paymentshttps://venmo.com"
