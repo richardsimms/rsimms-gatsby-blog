@@ -268,30 +268,17 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 190)
+          excerpt(pruneLength: 160)
           id
           fields {
             title
             slug
             date
           }
-          parent {
-            ... on File {
-              sourceInstanceName
-            }
-          }
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
             description
-            banner {
-              childImageSharp {
-                sizes(maxWidth: 720) {
-                  ...GatsbyImageSharpSizes
-                  aspectRatio
-                }
-              }
-            }
             slug
             keywords
           }

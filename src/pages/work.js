@@ -146,14 +146,6 @@ export const pageQuery = graphql`
             date
             isPost
             description
-            banner {
-              id
-              publicURL
-              childImageSharp {
-                id
-                
-              }
-            }
           }
           excerpt(pruneLength: 190)
           id
