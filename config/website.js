@@ -14,7 +14,7 @@ module.exports = {
   userTwitter: '@_rsimms', // Twitter Username
   ogSiteName: '', // Facebook Site Name
   ogLanguage: 'en_US',
-  ogImage: 'image/thumbnail.jpg',
+  ogImage: 'image/thumbnail.jpg', // image 
   googleAnalyticsID: 'UA-56512737-4',
 
   // Manifest and Progress color
