@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/blog your pathPrefix should be "blog"
   siteTitle: 'Richard Simms, a UX design lead', // Navigation and Site Title
-  siteTitleAlt: 'The work and writing of Richatrd Simms', // Alternative Site title for SEO
+  siteTitleAlt: 'The work and writing of Richard Simms', // Alternative Site title for SEO
   siteTitleShort: 'Richard', // short_name for manifest
   siteUrl: 'https://rsimms.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
@@ -14,6 +14,7 @@ module.exports = {
   userTwitter: '@_rsimms', // Twitter Username
   ogSiteName: '', // Facebook Site Name
   ogLanguage: 'en_US',
+  ogImage: 'image/thumbnail.jpg',
   googleAnalyticsID: 'UA-56512737-4',
 
   // Manifest and Progress color
