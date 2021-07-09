@@ -140,28 +140,5 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMdx(limit: 10, sort: {order: ASC, fields: frontmatter___date}, filter: {frontmatter: {categories: {eq: "work"}, published: {ne: false}}}) {
-      edges {
-        node {
-          fields {
-            slug
-            title
-            date
-            isPost
-            description
-            banner {
-              id
-              publicURL
-              childImageSharp {
-                id
-                
-              }
-            }
-          }
-          excerpt(pruneLength: 190)
-          id
-        }
-      }
-    }
   }
 `

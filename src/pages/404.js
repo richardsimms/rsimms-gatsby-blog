@@ -26,32 +26,5 @@ export const latestArticle = graphql`
         title
       }
     }
-    latestArticle: allMdx(
-      limit: 1
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { published: { ne: false } } }
-    ) {
-      totalCount
-      edges {
-        node {
-          id
-          fields {
-            title
-            slug
-          }
-          parent {
-            ... on File {
-              sourceInstanceName
-            }
-          }
-          frontmatter {
-            title
-            date(formatString: "MMMM DD, YYYY")
-
-            slug
-          }
-        }
-      }
-    }
   }
 `
