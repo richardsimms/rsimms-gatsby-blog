@@ -10,7 +10,7 @@ import Container from '../components/Container'
 import { rhythm } from '../lib/typography'
 import Sidenote from '../components/Sidenote-callout'
 import CTA from '../components/Button'
-
+import SEO from '../components/SEO'
 
 const Hero = () => {
   const theme = useTheme()
@@ -90,6 +90,7 @@ export default function Index({  data: { site, allMdx } }) {
    
   return (
     <Layout site={site}>
+      <SEO />
       <Hero />
       <div ></div>
     
