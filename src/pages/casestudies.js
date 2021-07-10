@@ -6,7 +6,7 @@ import Link from 'components/Link'
 import { useTheme } from 'components/Theming'
 import Container from 'components/Container'
 import { rhythm } from '../lib/typography'
-
+import SEO from '../components/SEO'
 
 const Hero = () => {
   const theme = useTheme()
@@ -55,6 +55,7 @@ export default function Index({ data: { site } }) {
   
   return (
     <Layout site={site} noSubscribeForm>
+    <SEO />
       <Hero />
       <Container>
         <h2
@@ -69,26 +70,13 @@ export default function Index({ data: { site } }) {
       <h3>Open Universities Australia</h3>
       <em>March 2019 – Present</em>
       <p>As the lead UX designer at Open Universities Australia, I often wear many hats but my focus is always to ensure that we are creating valuable experiences for our students and university partners that helps meet our business objectives.</p>
-      <p>I am responsible for:
-      <ul>
-          <li>Managing the UX research process</li>
-          <li>Delivering an effective product design capability in collaboration with the Product managers and the CPO, applying the lean principles and agile methodologies appropriate to the task</li>
-          <li>Working in collaboration with product leadership to interpret and realise company and product strategy within the product teams</li>
-          <li>Recruiting, developing and motivating a team of product designers embedded within the cross functional product teams</li>
-          <li>Ensuring visual design consistency across the website and driving the adoption of our in-house design language system</li>
-          <li>Turning product roadmaps into people plans to ensure teams have enough design capacity and that sufficient discovery work-ahead has been scheduled</li>
-          <li>Collaborating with other product, engineering and platform leads to elaborate and drive the technology strategy</li>
-          <li>Conducting design sprints</li>
-          <li>Creating UX concepts, wireframes, and visual designs for implementation</li>
-          <li>Reviewing data and coming up with hypotheses on how to improve processes and products</li>
-          <li>Managing and updating our design system and brand periodically</li>
-        </ul>
+      <p>
         <br />
       <Link
               to="/oua"
               aria-label={`view Open Universities Australia contiuous research case study`}
             >
-              Read case study →
+              Read contiuous research case study →
       </Link>
       </p>
       <h3>Rona Scrubs Ltd</h3>

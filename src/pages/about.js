@@ -2,12 +2,13 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
-
+import SEO from '../components/SEO'
 
 export default ({ data: { site } }) => {
   
   return (
     <Layout site={site} noSubscribeForm>
+    <SEO />
         <Container>   
             <img className="Image" src={require('../images/richard.webp')} alt="Richard Simms" />
             <h1>About Richard</h1>
