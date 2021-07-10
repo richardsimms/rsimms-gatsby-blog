@@ -70,7 +70,8 @@ export default function Index({ data: { site } }) {
       <h3>Open Universities Australia</h3>
       <em>March 2019 – Present</em>
       <p>As the lead UX designer at Open Universities Australia, I often wear many hats but my focus is always to ensure that we are creating valuable experiences for our students and university partners that helps meet our business objectives.</p>
-      <p>
+      <p>I am responsible for managing the UX research process and delivery of an effective product design capability in collaboration with the Product managers and the CPO. Reviewing data and coming up with hypotheses on how to improve processes and products. Recruiting, developing and motivating a team of product designers embedded within the cross functional product teams. Ensuring visual design consistency across the website and driving the adoption of our in-house design language system. Creating UX concepts, wireframes, and visual designs for implementation. 
+
         <br />
       <Link
               to="/oua"
@@ -81,7 +82,7 @@ export default function Index({ data: { site } }) {
       </p>
       <h3>Rona Scrubs Ltd</h3>
       <em>March 2020 – August 2020</em>
-      <p>A not-for-profit charitable organisation, creating scrubs (uniforms) for healthcare heroes in response to COVID-19.
+      <p>A not-for-profit charitable organisation, creating scrubs (uniforms) for healthcare heroes in response to COVID-19.  I was responsible for making the react website that allowed Healthcare to register their need of scrubs and volunteers the ability to sign up. After they registered on the site they receive our automated and campaign email journeys to know what was required in their local suburb across Australia.
         <br />
       <Link
               to="/ronascrubs"
