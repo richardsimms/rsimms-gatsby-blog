@@ -14,7 +14,7 @@ module.exports = {
     description: config.siteDescription,
     keywords: ['UX designer'],
     canonicalUrl: config.siteUrl,
-    image: config.siteLogo,
+    image: "/images/thumbnail.jpg",
     author: {
       name: config.author,
       minibio: `
