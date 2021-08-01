@@ -32,7 +32,7 @@ const Blog = ({
         width: 1px;
         `}
       
-      >The writing of Richard Simms</h1>
+      >Product discovery practice</h1>
       <Container noVerticalPadding>
         {posts.map(({ node: post }) => (
           <div

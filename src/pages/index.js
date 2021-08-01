@@ -106,7 +106,8 @@ export default function Index({  data: { site, allMdx } }) {
           <li>Where should I start?</li>
           <li>How do I bring my vision to reality?</li>
         </ul>
-        <p>Wouldn’t it be great, to get ideas into a prototypes to share with engineers, partners, investors, etc.<br/>I’ll help you listen to your customers and understand their motivations.<br />I have a track record of connecting the dots, between business design and customers experience to deliver business growth.<br />Curious to see if we’d be a good fit to work together, Let's chat!</p>
+        <p>Wouldn’t it be great, to get ideas into a prototypes to share with engineers, partners, investors, etc. I’ll help you listen to your customers and understand their motivations. I have a track record of connecting the dots, between business design and customers experience to deliver business growth.</p>
+        <p>Curious to see if we’d be a good fit to work together, Let's chat!</p>
         <CTA type="submit">
         <PopupButton
             css={css`
@@ -241,7 +242,7 @@ export default function Index({  data: { site, allMdx } }) {
           </div>
         ))}
        <Link to="/blog" aria-label="Visit blog page">
-          View all articles
+          Read more about my Product discovery practice
         </Link> 
         <hr />
       </Container>

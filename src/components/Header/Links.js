@@ -11,8 +11,8 @@ export default () => {
       <Link to="/casestudies" activeClassName="active" aria-label="View my work">
       Case studies
       </Link>
-      <Link to="/blog" activeClassName="active" aria-label="View latestes articles">
-        Articles
+      <Link to="/blog" activeClassName="active" aria-label="View latestes articles on product discovery">
+        Product discovery
       </Link>
       <Link to="/about" activeClassName="active" aria-label="View bio page">
         About
