@@ -6,7 +6,8 @@ description: 'A value-based design process for choosing appropriate incentives'
 categories: ['article']
 published: true
 author: 'Richard Simms'
-keywords: ['ux design, incentives, customer research']
+keywords: ['ux design', 'incentives', 'customer research']
+banner: './images/undraw_Usability_testing_re_uu1g.png'
 
 ---
 
