@@ -6,7 +6,7 @@ module.exports = {
   siteUrl: 'https://rsimms.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/thumbnail.jpg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
-  siteDescription: 'As a design leader Richard has created products for global brands. Optimising user experiences and strategies to create products that deliver business growth.',
+  siteDescription: 'Richard has created products for global brands. Optimising user experiences and strategies to create products that deliver value and business growth.',
   author: 'Richard Simms', // Author for schemaORGJSONLD
   organization: 'rsimms',
 
