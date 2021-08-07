@@ -8,8 +8,19 @@ keywords: ['product discovery', 'resource']
 banner: './images/banner.jpg'
 published: false
 author: 'Richard Simms'
-redirects:
-  - '/invisible-post-423124'
+
 ---
 
-This exists to populate GraphQL fields and avoid null errors. It should contain all of the available frontmatter.
+
+## Best Product discovery blogs and Websites of 2021
+My list of top product discovery blogs from top industry professionals is a great way to keep up to date on new trends, best practices, strategies, and any news related to product discovery.
+
+### Product Talk 
+
+
+### [Silicon Valley Product Group][1] written by Marty Cagan
+The SVPG is an organization based in San Francisco that is dedicated to sharing knowledge and expertise among tech companies to boost their success. Their blog, containing articles written by founder Marty Cagan, contains a wealth of knowledge on all things product – from big picture questions around product strategy and product discovery to the nitty-gritty of specific products.
+### 
+### 
+
+[1]:	https://svpg.com/articles/ "Silicon Valley Product Group"
