@@ -30,3 +30,8 @@ node_modules
 .cache/
 .DS_Store
 public
+/.Ulysses-Group.plist
+/.Ulysses-Settings.plist
+/content/.Ulysses-Group.plist
+/content/process/.Ulysses-Group.plist
+/content/blog/.Ulysses-Group.plist
