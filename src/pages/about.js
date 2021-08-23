@@ -21,7 +21,7 @@ export default ({ data: { site } }) => {
             <h2>Happening now</h2>
             <p>As of August 2021:</p>
             <ul>
-              <li>Just started a new role at SEEK and said goodbye to friends and colleagues at Open Universities Australia.</li>
+              <li>Starting a new role at the educational branch of the jobs website Seek.</li>
               <li>Reading: Continuous Discovery Habits</li>
               <li>Writing about <a aria-label="View article on value-based design" href="https://vbd.substack.com/">value-based design</a> practice. Connecting the dots between customer value and business outcomes.</li>
             </ul>
