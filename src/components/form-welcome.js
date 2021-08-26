@@ -22,7 +22,7 @@ export default function App() {
       width: 100%;
     }
     ${bpMaxSM} {
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-start;
       width: auto;
       label,
@@ -30,7 +30,7 @@ export default function App() {
         margin: 5px 0 0 0 !important;
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
       }
       button {
         margin: 20px 0 0 0;
@@ -41,7 +41,7 @@ export default function App() {
         <input 
           css={css`
           flex-wrap: nowrap;
-          flex-direction: column;
+          flex-direction: row;
           align-content: space-around;
           justify-content: space-evenly;
           `}
@@ -51,12 +51,12 @@ export default function App() {
         css={css`
         padding-right: 1rem;
         `}
-        ><label>If I was to dedicate the next issue you and the continuous discovery challenge you're facing. What would the issue be about?<input type="text" name="name" placeholder="Name (optional)" /></label></p>
+        ><label>If I was to dedicate the next issue you and the continuous discovery challenge you're facing. What would the issue be about?<input type="textarea" name="ideas" placeholder="Let me know the types of things I should write about" /></label></p>
         <p
         css={css`
         padding-right: 1rem;
         `}
-        ><label>Where did you hear about me?<input type="email" name="email" placeholder="Your email" required /></label></p>
+        ><label>Where did you hear about me?<input type="textarea" name="referral" placeholder="Where did you hear about me?" /></label></p>
         <p><Button type="submit">
           <p
             css={css`
