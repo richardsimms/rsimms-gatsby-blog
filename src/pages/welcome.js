@@ -7,9 +7,8 @@ import Form from '../components/form-welcome'
 export default ({ data: { site } }) => (
   <Layout site={site} noFooter>
     <Container>
-      <h1>It's great to have you here.<h1>
-      <p>Let's make sure I get you <em>exactly</em> what you're looking for…</p>
-
+      <h1>It's nice to have you here</h1>
+      <p>Let's make sure I get you <em>exactly</em> what you are looking for…</p>
       <Form />
     </Container>
   </Layout>
