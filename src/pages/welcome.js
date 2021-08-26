@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Container from '../components/Container'
-import Form from 'components/form-welcome'
+import Form from '../components/form-welcome'
 
 export default ({ data: { site } }) => (
   <Layout site={site} noFooter>
