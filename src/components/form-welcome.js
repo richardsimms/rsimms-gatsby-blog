@@ -8,6 +8,8 @@ export default function App() {
   return (
     <form 
     css={css`
+    display: flex;
+    align-items: flex-end;
     button {
       margin-left: 10px;
     }
@@ -49,42 +51,18 @@ export default function App() {
         css={css`
         padding-right: 1rem;
         `}
-        ><label>If I was to dedicate the next issue you and the continuous discovery challenge you're facing. What would the issue be about?
-          <textarea
-              css={css`
-              width: 100%;
-              `}
-            name="message"
-            id="welcome-form-message"
-            aria-labelledby="welcome form message"
-            class="form-textarea"
-            placeholder="Let me know the types of things I should write about"
-            rows="4"
-        ></textarea></label>
-          </p>
+        ><label>If I was to dedicate the next issue you and the continuous discovery challenge you're facing. What would the issue be about?<input type="textarea" name="ideas" placeholder="Let me know the types of things I should write about" /></label></p>
         <p
         css={css`
         padding-right: 1rem;
         `}
-        ><label>Where did you hear about me?
-          <textarea
-              css={css`
-              width: 100%;
-              `}
-            name="referral"
-            id="welcome-form-referral"
-            aria-labelledby="welcome form referral"
-            class="form-textarea"
-            placeholder="What brought you here…"
-            rows="2"
-        ></textarea></label>
-          </p>
+        ><label>Where did you hear about me?<input type="textarea" name="referral" placeholder="Where did you hear about me?" /></label></p>
         <p><Button type="submit">
           <p
             css={css`
             padding: 12px 42px;
 
-            `}>Write for me</p>
+            `}>Start growing!</p>
             </Button></p>
       </form>
   );
