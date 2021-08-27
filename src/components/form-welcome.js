@@ -35,7 +35,7 @@ export default function App() {
       }
     }
           `}
-    name="Welcome" method="POST" netlify="true" action="/confirm">
+    name="Welcome" method="POST" netlify="true" action="/thank-you">
         <input 
           css={css`
           flex-wrap: nowrap;
